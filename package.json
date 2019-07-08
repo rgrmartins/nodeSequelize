@@ -1,12 +1,21 @@
 {
   "name": "NodeSequelize",
   "version": "1.0.0",
-  "description": "",
+  "description": "Aprendendo sobre Sequelize",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Roger Martins",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.11",
+    "pg": "^7.11.0",
+    "sequelize": "^5.9.2"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.0"
+  }
 }
